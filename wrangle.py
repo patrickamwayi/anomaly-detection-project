@@ -84,3 +84,8 @@ def find_anomalies(df, user, span, weight, plot=False):
         plot_bands(my_df, user)
     
     return my_df[my_df.pct_b>1]   
+
+
+
+
+    
